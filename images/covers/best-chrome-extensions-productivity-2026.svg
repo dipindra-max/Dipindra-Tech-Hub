@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3D5AFE"/>
+      <stop offset="100%" stop-color="#00B39B"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="#12161f"/>
+  <rect width="1200" height="675" fill="url(#g)" opacity="0.14"/>
+  <g stroke="#3D5AFE" stroke-opacity="0.25" stroke-width="1">
+    <line x1="0" y1="560" x2="1200" y2="560"/>
+    <line x1="0" y1="580" x2="1200" y2="580"/>
+    <line x1="0" y1="600" x2="1200" y2="600"/>
+  </g>
+  <rect x="60" y="60" width="150" height="34" rx="17" fill="#3D5AFE"/>
+  <text x="80" y="83" font-family="JetBrains Mono, monospace" font-size="15" fill="#0b0e14">SOFTWARE</text>
+  <text x="60" y="270" font-family="Space Grotesk, sans-serif" font-size="44" font-weight="700" fill="#ffffff"><tspan x="60" dy="0">10 Must-Have Chrome</tspan><tspan x="60" dy="44">Extensions for</tspan><tspan x="60" dy="44">Productivity in 2026</tspan></text>
+  <text x="60" y="620" font-family="JetBrains Mono, monospace" font-size="18" fill="#c8cddb">techpulsehub.com</text>
+</svg>
