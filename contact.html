@@ -67,26 +67,21 @@
   </section>
   <section style="padding-top:0;">
     <div class="wrap" style="max-width:640px;">
-      <form id="contact-form">
-        <div class="form-field">
-          <label for="name">Name</label>
-          <input id="name" name="name" type="text" required>
-        </div>
-        <div class="form-field">
-          <label for="email">Email</label>
-          <input id="email" name="email" type="email" required>
-        </div>
-        <div class="form-field">
-          <label for="subject">Subject</label>
-          <input id="subject" name="subject" type="text" required>
-        </div>
-        <div class="form-field">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="6" required></textarea>
-        </div>
-        <button class="btn" type="submit">Send message</button>
-        <p id="contact-msg" class="small" style="margin-top:14px;"></p>
-      </form>
+      <form
+  action="https://formspree.io/f/{formid"
+  method="post"
+>
+  <label for="full-name">Full Name</label>
+  <input type="text" name="name" id="full-name" placeholder="First and Last" required>
+
+  <label for="email-address">Email Address</label>
+  <input type="email" name="replyto" id="email-address" placeholder="email@domain.tld" required>
+
+  <label for="message">Message</label>
+  <textarea rows="5" name="message" id="message" placeholder="Your message here" required></textarea>
+
+  <input type="submit" value="Submit">
+    </form>
       <p class="small" style="margin-top:28px;">
         This form is a static front-end demo — see <code>README.md</code> for how to connect it to a real
         form backend (such as Formspree, Getform, or your own endpoint) so messages actually reach your inbox.
