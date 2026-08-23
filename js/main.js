@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function () {
     contactForm.addEventListener('submit', function (e) {
       e.preventDefault();
       var msg = document.getElementById('contact-msg');
-      if (msg) msg.textContent = 'Thanks for reaching out! This is a demo form — connect it to a form service (see README) to receive real messages.';
+      if (msg) msg.textContent = 'Thanks for contacting Us';
       contactForm.reset();
     });
   }
